@@ -26,24 +26,14 @@ def generate_students():
                 is_male = True
             else:
                 is_male = False
-            Student(Line[0], int(line[1]), line[2], line[3], line[4], is_male)
+            Student(line[0], int(line[1]), line[2], line[3], line[4], is_male)
 
 
         def find_student():
             searched_student = input("Which student would you  like  to search for: ")
             for x in range len(student_list):
-            if searched_student = student_list[]:
-                print_student_details()
-
-# Main routine
-Student("Karen", "17", "123-4567", "WNLR", "13DTC", "13SMX", "Female")
-Student("Bob", "18", "021-0263674", "BNNL", "13MX", "Male")
-Student("Lisa", "16", "022-4567123", "SKWR", "13DTC", "13SMX", "Female")
-Student("Patrick", "18", "023-01234556", "SCBE", "13ENG", "13CMX", "13DTC", "Male")
-
-student_list = []
-generate_students()
-
+                if searched_student == student_list[]:
+                    print_student_details()
 
 def print_student_details():
     for student in display_info:
@@ -54,3 +44,11 @@ def select_student_age():
         display_info()
 
 
+# Main routine
+Student("Karen", "17", "123-4567", "WNLR", "13DTC", "13SMX", "Female")
+Student("Bob", "18", "021-0263674", "BNNL", "13MX", "Male")
+Student("Lisa", "16", "022-4567123", "SKWR", "13DTC", "13SMX", "Female")
+Student("Patrick", "18", "023-01234556", "SCBE", "13ENG", "13CMX", "13DTC", "Male")
+
+student_list = []
+generate_students()

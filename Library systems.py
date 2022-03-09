@@ -121,10 +121,10 @@ user_list = []
 
 
 # Create book objects
-Book("Lord of the Rings", "J.R.R.Tolkien",  "TOL", "9780261103252")
+Book("Lord of the Rings", "J.R.R. Tolkien",  "TOL", "9780261103252")
 Book("The Hunger Games", "Suzanne Collins", "COL", "9781407132082")
 Book("A Tale Of Two Cities", "Charles Dickens", "DIC", "9781853262647")
-Book("Harry Potter", "J.K.Rowling", "ROW", "9780439321624")
+Book("Harry Potter", "J.K. Rowling", "ROW", "9780439321624")
 
 # Create objects - Users
 User("John", "12 Example St")
